@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+/* banner部分 */
+.banner{
+    width: 1200px;
+    height: 400px;
+    line-height: 95px;
+    padding:21px 0;
+    background: url(../img/bg-banner.jpg) no-repeat;
+}
+
+.banner p{
+    margin:0 auto;
+    text-align: center;
+}
+.banner .f40{
+    font-size:40px;
+    color:#fff;
+    margin:15px 0 15px 0;
+}
+.banner .f19{
+    line-height: 32px;
+    font-size:19px;
+    color:#fff;
+    margin:9px 0 20px 0;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner .button{
+    margin-left: 400px;
+}
+.ban-join span,
+.ban-open span{
+    font-size:18px;
+}
+.ban-join{
+    display: inline-block;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    padding:6px 5px;
+    border: 1px solid #fe7300;
+    background-color: #656063;
+    text-align: center;
+    color:#fe7300;
+    font-size:19px;
+}
+.ban-join a{
+    color:#fe7300;
+    text-decoration: none;
+}
+.ban-open{
+    display: inline-block;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    padding:6px 5px;
+    border: 1px solid #fff;
+    margin-left:20px;
+    text-align: center;
+    background-color: #fe7300;
+    color:#fff;
+    font-size:19px;
+}
+.ban-open a{
+    color:#fff;
+    text-decoration: none;
+}
+.ban-bottom a{
+    color:#fe7300;
+    text-decoration: none;
+}
+.ban-bottom a:hover{
+    color:#fff;
+}
+.p-bottom .cg{
+    color:#9baeb6;
+}
+/* description部分 */
+.description{
+    width: 1200px;
+}
+.description h3{
+    text-align: center;
+}
+.description ul{
+    width: 100%;;
+    margin: auto;
+}
+.description ul li{
+    list-style-type: none;
+    width: 20%;
+    height:200px;
+    padding:35px 18px;
+    float: left;
+    position: relative;
+}
+.description ul li span{
+    color:#8c92a4;
+}
+.description .mid{
+    width:65px;
+    height:65px;
+    position: relative;
+    left: 25%;
+    top: 50%;
+    margin:-12.5px 0 0 32.5px;
+}
+.description ul li span{
+    text-align: left;
+}
+/* enterprise部分 */
+.enterprise{
+    background:url(../img/bg_enterprise.jpg) no-repeat;
+    padding-top: 14px;
+    width: 1200px;
+    height: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.enterprise .img-right{
+    float: left;
+    margin-right: 23px;
+}
+.enterprise .button{
+    height: 50px;
+    line-height: 50px;
+    width: 225px;
+    border-radius: 40px;
+    background-color: #f05638;
+}
+.en-right .f1,.f2,.f3{
+    color:#FFF;
+}
+.en-text1{
+    margin:25px 0 55px 0;
+    float: left;
+}
+.en-text1 .f1{
+    font-size:32px;
+}
+.en-text1 .f2{
+    font-size:18px;
+    color:#d6d8da;
+}
+.en-text2{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+.en-text2 .f3{
+    font-size:23px;
+    text-align: center;
+}
+.en-text2 .f4{
+    display: inline-block;
+    padding-left: 35px;
+    font-size:14px;
+    color:#fe7300;
+}
+
+
+/* project部分 */
+.project{
+    width: 1200px;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+    background-color: #f8f8f8;
+}
+.pro-text1{
+    font-size:30px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 6px;
+    padding-left:13px;
+    text-indent: .8em;
+}
+.pro-text2{
+    font-size:30px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 6px;
+}
+.pro-left{
+    width: 700px;
+    padding-left: 150px;
+}
+.pro-left ul li{
+    text-decoration: none;
+    color: #000;
+}
+.pro-left ul li:hover{
+    transform: translate(2px,2px);
+    transition: all .2s ease-out;
+}
+.pro-left .pro-up{
+    width: 170px;
+    height: 110px;
+}
+.pro-left .pro-down{
+    text-align: center;
+}
+.pro-left ul{
+    list-style-type: none;
+    float: left;
+}
+.pro-left ul li
+{
+    width: 170px;
+    height: 150px;
+    background-color: #fff;
+    padding:10px 20px;
+    margin-right: 10px;
+    float: left;
+    box-shadow:0 0 5px 5px #d6d6d6;
+}
+.pro-right{
+    width: 245px;
+    height:445px;
+    padding: 15px 10px;
+    position: absolute;
+    right:80px;
+    top:35px;
+}
+.project .pro-go{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.pro-right ul
+{
+    list-style-type: none;
+    width: 225px;
+    height: 570px;
+    background-color: #fff;
+    box-shadow:0 0 5px 5px #d6d6d6;
+}
+.pro-right ul li{
+    height: 85px;
+    padding-top:20px;
+    margin-right: 40px;
+}
+
+/* 更多推荐 */
+.more{
+    clear: both;
+    padding-top:20px;
+    padding-bottom: 60px;
+    padding-left: 590px;
+}
+.more a{
+    color: #e87b23;
+    text-decoration: none;
+}
+.more a:hover{
+    color:#d6d6d6;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户输入一个数判断是否在10-100之间 包含10和100</title>
+    <style>
+    /*css 注释*/
+   
+    </style>
+</head>
+<body>
+    <!-- 这是一个标题 -->
+</body>
+<script type="text/javascript" src="js/EventUtil.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script>
+// 下面是定义和赋值
+var a =function (req, res, next) {
+    var form = new yog.multiparty.Form();
+    form.parse(req, function (err, fields, files) {
+        var name = fields.name;
+        var gender = fields.gender ? 1 : 0;
+        var avatar = (files && files.length > 0) ? files[0] : null;
+        if (!name) {
+            throw new Error('invalid name');
+        }
+        userModel.save({
+                name: name,
+                gender: gender,
+                avatar: avatar
+            })
+            .then(res.json.bind(this))
+            .catch(next);
+    });
+}
+</script>
+</html>
